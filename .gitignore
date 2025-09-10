@@ -24,3 +24,6 @@ __pycache__/
 .venv/
 venv/
 env/
+# Datasets locales
+data/*.csv
+data/*.sql
