@@ -1,0 +1,26 @@
+# Ignorar datasets grandes
+/data/*
+!/data/.gitkeep  # mantener la carpeta vacía en el repo
+
+# Ignorar descargas crudas
+/download/*
+!/download/*.py   # pero sí incluir los scripts .py
+
+# Ignorar outputs intermedios de limpieza si se generan
+/clean_data/*.csv
+/clean_data/*.parquet
+
+# Ignorar archivos temporales
+*.ipynb_checkpoints
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+*.log
+*.tmp
+
+# Ignorar entornos virtuales
+.venv/
+venv/
+env/
